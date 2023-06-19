@@ -1,0 +1,78 @@
+
+
+header {
+  background-color: #00bcd4;
+  padding: 20px;
+  margin-top: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px; /* Adjust the font size as desired */
+   border-radius: 10px; /* Add curved edges */
+  transition: background-color 0.3s ease; 
+}
+
+nav ul li a:hover {
+  background-color: #008ba3;
+}
+
+nav ul li a.active {
+  background-color: #008ba3;
+}
+
+.fa-home {
+  margin-right: 5px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.search-container {
+  text-align: center;
+}
+
+.search-container .parrot-image {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.search-container form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container input[type="text"] {
+  padding: 10px;
+  width: 300px; /* Adjust the width as desired */
+  font-size: 18px; /* Adjust the font size as desired */
+}
+
+.search-container button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 18px; /* Adjust the font size as desired */
+}
+
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+}
